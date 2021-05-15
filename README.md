@@ -1,4 +1,4 @@
-# cohelp
+# CoviNews
 
 A new Flutter project.
 
