@@ -306,15 +306,15 @@ class _CovidStatsState extends State<CovidStats> {
                       tooltipSettings: MapTooltipSettings(color: Colors.black),
                       selectedIndex: selectedIndex,
                       onSelectionChanged: onc,
-                      // loadingBuilder: (BuildContext context) {
-                      //   return Container(
-                      //     height: 25,
-                      //     width: 25,
-                      //     child: const CircularProgressIndicator(
-                      //       strokeWidth: 3,
-                      //     ),
-                      //   );
-                      // },
+                      loadingBuilder: (BuildContext context) {
+                        return Container(
+                          height: 25,
+                          width: 25,
+                          child: const CircularProgressIndicator(
+                            strokeWidth: 3,
+                          ),
+                        );
+                      },
                       zoomPanBehavior: _zoomPanBehavior,
                       selectionSettings: MapSelectionSettings(
                         color: Colors.grey,
