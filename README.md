@@ -1,6 +1,6 @@
 # CoviNews
 
-Flutter application with Covid-19 statistics and News related to health, Covid-19 and vaccine.
+Flutter application with Covid-19 statistics and details along with News related to health, Covid-19 and vaccine.
 
 ## APIs Used - 
 - https://api.covid19india.org
